@@ -1,0 +1,164 @@
+h1{
+    text-align: center;
+    font-size:55px;
+}
+h1:hover{
+    cursor:crosshair
+}
+body{
+ background-color: whitesmoke;
+ margin:0;
+ 
+}
+*{
+    box-sizing:border-box;
+  }
+.topo{
+    background:url(../imagens/pexels-sabrina-gelbart-65954-249798.jpg) no-repeat;
+    background-size: contain;
+    background-repeat:repeat;
+    color:whitesmoke;
+    padding:16px;
+    opacity:1;
+}
+.text50{
+    float:left;
+
+    text-align: justify;
+    width:45%;
+    color:rgb(0, 0, 0);
+    text-indent:10px;
+}
+.back a{
+    display: inline-block;
+    margin-top:250px;
+    margin-right:1000px;
+
+}
+.back a:hover{
+    display: inline-block;
+    position: relative; 
+    left:5px;
+    opacity:0.7;
+
+}
+.menu{
+    border-top:8px solid black;
+    border-bottom:8px solid black;
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    justify-content:center;
+    gap: 15px;
+}
+a.menu{
+    color:white;
+    position: relative;
+    top:20px;
+}
+
+.menu a{
+    color: white;
+    padding: 16px 10px;
+    text-decoration: none;     
+}
+
+.com_borda{
+    border: 7px solid black;
+}
+
+.centro{
+    text-align:center;
+}
+
+.close{
+    text-align: center;
+    border-top:4px solid white
+  }
+.close a:hover{
+    opacity:0.9;
+    position: relative;
+    bottom:2px;
+}
+
+
+.titulo{
+    text-align: center;
+    background-color:black;
+    color:white;
+    border:5px solid black;
+  }
+
+.tabelas{
+    color:rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+
+    border:7px solid rgb(0, 0, 0);
+    
+}
+a.pedido{
+    background-color:rgb(0, 0, 0);
+    width:200px;
+    height:60px;
+    padding:13px;
+    margin-top:100px;
+    margin-left:700px;
+    color:white;
+    text-align: center;
+    border:5px solid rgb(41, 37, 37);
+    border-radius:25px;
+    text-decoration:none;
+}
+a.pedido:hover{
+    padding:15px;
+    background-color: gray;
+    border-color: #333;
+    border-radius:40px;
+    cursor: grab;
+}
+
+.descola{
+    text-align: justify;
+    line-height:3;
+    margin-left:10px;
+}
+
+.fechar:hover{
+  padding:5px;
+  
+}
+
+a.redirect:hover{
+   color:rgb(186, 186, 201);
+   padding:10px;
+   text-decoration:underline;
+}
+
+a.rede{
+    float:rigth;
+}
+
+a.rede:hover{
+ display:block;
+ position:relative;
+ bottom:5px;
+ opacity:0.8;
+}
+
+.open{
+    padding: 16px;
+    overflow: hidden;
+    text-align: center;
+    background-color:whitesmoke;}
+.open a :hover{
+    opacity:0.9;
+    position: relative;
+    top:2px;
+
+}
+
+.formulario{
+    display: inline-block;
+    margin-left:20px;
+}

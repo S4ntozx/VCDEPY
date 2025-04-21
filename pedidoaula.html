@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitar Uma Aula</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body style="overflow-x: hidden;">
+    <h1>Solicitar Aula</h1>
+     <form>
+     <div class="formulario">
+
+         <!--Input do nome-->
+         <label for="name">Nome:</label>
+        <input id=name type="text" placeholder="Insira Seu Nome" required>
+        
+        <!--Input Sexo-->
+        <hr style="width:2000px; margin-left:0;"><p><b>Sexo:</b></p>
+        <label for="masc">Masculino</label>
+        <input name="sex"type="radio" id="masc" value="masculino" required><br>
+        <label for="fem">Feminino</label>
+        <input name="sex"type="radio" id="fem" value="feminino" required><br>
+        <br><hr style="width:2000px; margin-left:0;"><br>
+        
+        <!--Input do email-->
+        <label for="contato">Email:</label>
+        <input id="contato" type="email" placeholder="Insira Seu Email" required>
+        
+        <!--Input do dia-->
+        <br><br><label for="dia">Dia:  </label>
+        <input id="dia" type="text" placeholder="Escolha o Dia Da Aula" required>
+        
+        <!--Input do horário-->
+        <br><br><label for="horario">Horário</label>
+        <input id="horario" type="text" placeholder="Escolha o Horário" required>
+        
+        <br><br><select required>
+            <option selected disabled value="">Como Você deseja ser contatado</option>
+            <option value="ZapZap">Whatsapp</option>
+            <option value="Insta">Instagram</option>
+            <option value="Email">Gmail</option>
+            
+        </select>
+        <!--Botão de enviar formulário-->
+        <br><br><input id="enviar" type="submit" value="Solicitar">
+        
+    </div>   
+    </form>
+    
+    <br><br><br><br><br><a class="fechar" href="aulaexperimental.html"><img src="imagens/replay.png" width="70"></a>
+</body>
+</html>
